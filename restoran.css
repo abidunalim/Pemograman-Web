@@ -1,0 +1,89 @@
+body{
+    background: url("/home/abidun/Materi/Desain Poster.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+
+h1 {
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    left: 42%;
+    color: #333;
+    background-color: #f2f2f2;
+    margin-right: 30cm;
+    box-shadow: 6px 5px 5px grey;
+}
+
+.card {
+    background-color: #f2f2f2;
+    box-shadow: 6px 5px 5px grey;
+    max-width: 300px;
+    margin: auto;
+    text-align: none;
+    font-family: arial;
+    position: relative;
+    right: 37%;
+    border-radius: 10px;
+    color: #333;
+    text-indent: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
+  }
+
+button {
+    border: none;
+    outline: o;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+    background-color: #04AA6D;
+  }
+
+table, th, td {
+    border: 2px solid;
+    text-align: center;
+    color: #333;
+}
+
+td {
+    height: 40px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+th {
+    height: 70px;
+    width: 125px;
+}
+
+tr{
+    background-color: coral;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+#absen th {
+    background-color: #04AA6D;
+}
+
