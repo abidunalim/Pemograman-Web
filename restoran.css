@@ -29,6 +29,7 @@ h1 {
     border-radius: 10px;
     color: #333;
     text-indent: 10px;
+    padding: 10px;
 }
 
 .grid-container {
