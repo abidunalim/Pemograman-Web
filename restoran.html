@@ -2,11 +2,16 @@
 <html>
     <head>
         <link rel="stylesheet" href="restoran.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Restoran Haji Fuad</title>
         
         
         <body>
+            <div class="navbar" style="background-color: #f2f2f2; border-radius: 20px; width: 13%;">
+                <a><i class="fa fa-fw fa-home" style="size: 10px;"></i>Restoran Haji Fuad</a>
+            </div>
 
+            <p id="demo"></p>
 
 
             <h1 class="makanan">Menu Makanan</h1>
@@ -23,7 +28,7 @@
                         <dd>-Ikan Kakap <b>80k/kg</b></dd>
                         <dd>-Lobster Laut <b>85k/kg</b></dd>
                 </dl>
-                <button>Order</button>
+                <button onclick="myFunction()">Order</button>
                 </div>
 
                 <div class="card">
@@ -36,7 +41,7 @@
                         <dd>-Nasi Ayam Bakar <b>20k</b></dd>
                         <dd>-Nasi Ayam Goreng <b>20k</b></dd>
                     </dl>
-                    <button>Order</button>
+                    <button onclick="myFunction()">Order</button>
                 </div>
 
                 <div class="card">
@@ -47,14 +52,49 @@
                         <dd>-Soto Babat <b>20k</b></dd>
                         <dd>-Soto Bogor <b>15k</b></dd>
                 </dl>
-                <button>Order</button>
+                <button onclick="myFunction()">Order</button>
             </div>
             </div>
 
             <br>
             <!--Menu Minuman-->
-            
+            <h1 class="minuman">Menu Minuman</h1>
 
+            <div class="grid-container">
+            <div class="card">
+                <dl>
+                <dt style="color: #f2f2f2; background-color: #333; border-radius: 20px; width: 60%;">1. Hot Coffe</dt>
+                    <dd>-Hot Americano <b>15k</b></dd>
+                    <dd>-Hot Hazelnut Latte <b>18k</b></dd>
+                    <dd>-Hot Vanilla Latte <b>18k</b></dd>
+                    <dd>-Hot Coffe Gula Aren</dd>
+                    <button onclick="myFunction()">Order</button>
+                </dl>
+            </div>
+            
+            <div class="card">
+                <dl>
+                    <dt style="color: #f2f2f2; background-color: #333; border-radius: 20px; width: 60%;">2. Ice Coffe</dt>
+                    <dd>-Ice Coffe Americano</dd>
+                    <dd>-Ice Coffe Hazelnut Latte</dd>
+                    <dd>-Ice Coffe Vanilla Latte</dd>
+                    <dd>-Ice Coffe Gula Aren</dd>
+                </dl>
+                <button onclick="myFunction()">Order</button>
+            </div>
+
+            <div class="card">
+                <dl>
+                    <dt style="color: #f2f2f2; background-color: #333; border-radius: 20px; width: 60%;">3. Jus Buah </dt>
+                    <dd>-Jus Buah Naga</dd>
+                    <dd>-Jus Buah Mentimun</dd>
+                    <dd>-Jush Buah Apel</dd>
+                    <dd>-Jush Buah Alpukat</dd>
+                 <dd>-Jus Buah Mangga</dd>
+                </dl>
+                <button onclick="myFunction()">Order</button>    
+                </div>
+            </div>
             
         <!--    <p style="color: white;">Table Absen Pegawai Restoran Haji Fuad:</p>
 
@@ -97,10 +137,12 @@
 
 
             <!--Footer-->
+            <div class="footer">
+                <p>Copy Right Restoran Haji Fuad</p>
+            </div>
 
             <!--Scripts JS untuk mengorder-->
-
-
+            <script src="restoran.js"></script>
         </body>
     </head>
 </html>
